@@ -1,0 +1,111 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.flowchart-container {
+  margin-top: 50px;
+}
+
+.flowchart-controls {
+  margin-bottom: 20px;
+}
+
+.add-node-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.save-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.flowchart-canvas {
+  height: 400px;
+  background: hsl(150, 66%, 57%);
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(187, 17, 17, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.node-menu{
+  height: 300px;
+  width: 400px;
+ 
+}
+.menu-btn{
+  display: inline-block;
+  width:140px;
+  height: 140px;
+  margin: 8px;
+  align-items: center;
+}
+.node-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  background-color: #45a049;
+}
+
+.add-node-btn {
+  font-size: 40px;
+  cursor: pointer;
+  background-color: #ebe705;
+  color: white;
+  border: none;
+  border-radius: 25%;
+}
+.x{
+  position: relative;
+  display: inline-block;
+  color: black;
+}
