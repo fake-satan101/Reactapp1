@@ -1,0 +1,13 @@
+{
+    "name": "email-marketing-sequence-frontend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "reactflow": "^11.11.4"
+    },
+    "scripts": {
+      "start": "react-scripts start"
+    }
+  }
